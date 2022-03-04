@@ -3,7 +3,8 @@
     <head>
         <title>Paylaş Geliş!</title>
         <meta charset="utf-8">
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet" >
@@ -40,58 +41,117 @@
                 width: 25em;
                 border-radius: 2em;
             }
-            
-            
-            .col-sm-4{
-                padding: 1em;
-                border-style:groove;
-                border-radius: 1em;
+            a{
+                text-decoration: none; 
                 display: inline-block;
+                color:white;
+                margin: 1em;
+            }
+            
+            .col-4{
+                padding: 1em;
+              /*  border-style:groove;
+                border-radius: 1em;*/
+                display :inline-block;
             }
             
             p{
                 text-indent: 1em;
                 
             }
+            .asd{
+                width: 80%;
+                border-style:groove;
+                border-radius: 1em;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 1.5em;
+            }
+            .input-icons {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+              
+            .icon {
+                padding: 10px;
+                color: green;
+                min-width: 50px;
+                text-align: center;
+            }
+            footer{
+
+                background:#53049c;
+               
+            }
+            .input-field {
+                width: 100%;
+                padding: 10px;
+                text-align: center;
+            }
         </style>
     </head>
 
     <body>
-        <header>
-            <input class="search-box" type="text" name="ad">
+        <header >
+            
+            <a  href="https://www.paylasgelis.com" title="Anasayfa" >
+            <h2 style="color:white">Paylas Geliş!</h2>
+            </a>
+
+            <i class="fa-solid fa-magnifying-glass" style="font-size: 25px;"></i>
+            <input class="search-box " type="text" name="ad" placeholder="Arama yap..."  > 
+
+          
+            
+            <a href="https://www.paylasgelis.com/login">Giriş Yap!</a>
+            <a href="https://www.paylasgelis.com/sign-up">Şimdi Katıl!</a>
+            
 
         </header>
         <div class="container">
-            <div class="rows">
-                <div class="col-sm-4">
-                    
-                    <h3>Forum Bölümümüze Gözat!</h3>
-                    <p >Derslerinle alakalı her türlü soru sorup cevap bulabileceğin harika platform. Hemen katıl!</p>
-                    <a href="forum.paylasgelis.com">
-                    <button >Forum</button>
-                    </a>
+            <div class="row">
+                <div class="col-4 ">
+                    <div class="asd">
+                        <h3>Forum Bölümümüze Gözat!</h3>
+                        <p >Derslerinle alakalı her türlü soru sorup cevap bulabileceğin harika platform. Hemen katıl!</p>
+                        <a href="https://forum.paylasgelis.com">
+                        <button >Forum</button>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-sm-4" >
-
+                <div class="col-4">
+                
+                <div class="asd">
                     <h2>Notlarını "Paylaş-Geliş"te Tut   </h2>
                     <p >hem sen faydalan hem de başkaları faydalansın!</p><br>
-                    <a href="not.paylasgelis.com">
+                    <a href="https://not.paylasgelis.com">
                     <button >Notlar </button>
                     </a>
                     
                 </div>
-                <div class="col-sm-4" style="display: inline-block;" >
-
+                </div>
+                <div class="col-4">
+                    <div class="asd">
+                        
                     <h2>Bildiklerini Oyunlarla Pekiştir   </h2>
-                    <p >İster başkalarının ister öğretmeninin hazırladığı oyunları oynayarak bildiklerini pekiştir!</p><br>
-                    <a href="oyun.paylasgelis.com">
+                    <p >İster başkalarının ister öğretmeninin hazırladığı oyunları oynayarak bildiklerini pekiştir!</p>
+                    <a href="https://oyun.paylasgelis.com">
                     <button >Oyna </button>
                     </a>
                     
+                    </div>
                 </div>
             </div>
         </div>
       
-        
+        <footer style="">
+            <a href="https://www.paylasgelis.com/games">Oyunlar</a>
+            <a href="https://www.paylasgelis.com/notes">Notlar</a>
+            <a href="https://www.paylasgelis.com/forum">Forum</a>
+            <a href="https://www.paylasgelis.com/sign-up">Şimdi Katıl!</a>
+            <a href="https://www.paylasgelis.com/sign-in">Giriş Yap!</a>
+            <a href="https://www.paylasgelis.com/contact">İletişim</a>
+            
+        </footer>
     </body>
 </html>
